@@ -27,6 +27,20 @@ header img{
     transition: transform 0.3s ease-in-out;
 } */
 
+  .transform-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    max-width: 1600px;
+    height: 180px;
+    background-image: linear-gradient(#f97316,#78350f);
+    border-radius: 1.5rem;
+    box-shadow: 2px 0px 10px 0px #f97316;
+ }
+
+ @media not all and (min-width: 768px) {
 .transform-card {
     display: flex;
     flex-direction: column;
@@ -40,6 +54,7 @@ header img{
     box-shadow: 2px 0px 10px 0px #f97316;
 
 }
+ }
 
 .transform-card:has(input[type="checkbox"]:checked){
   /* width: 100px; */
