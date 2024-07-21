@@ -46,6 +46,11 @@ header img{
   animation: transform-right-to-left 0.5s forwards;
 }
 
+.transform-card:has(input[type="checkbox"]:checked) .rotate-animation{
+  transform: rotate(-90deg);
+  transition: all .5 ease-out;
+}
+
 input {
   width: 100%;
   height: 100%;
